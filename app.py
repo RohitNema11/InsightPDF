@@ -24,7 +24,7 @@ from langchain_classic.chains.retrieval import create_retrieval_chain
 load_dotenv()
 
 st.set_page_config(
-    page_title=" PDF Q&A Chatbot",
+    page_title=" InsightPDF",
     page_icon="",
     layout="wide"
 )
