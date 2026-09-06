@@ -42,7 +42,7 @@ if "pdf_processed" not in st.session_state:
 def get_llm():
     """Create the LLM instance (only once)."""
     return ChatGroq(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         temperature=0
     )
 
